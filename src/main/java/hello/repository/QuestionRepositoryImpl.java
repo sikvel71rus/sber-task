@@ -1,13 +1,12 @@
-package repository;
+package hello.repository;
 
-import model.Question;
+import hello.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.lob.LobHandler;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Optional;
 
 @Repository
 public class QuestionRepositoryImpl implements QuestionRepository {

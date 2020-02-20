@@ -1,4 +1,6 @@
-import model.Question;
+package hello;
+
+import hello.model.Question;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.lob.DefaultLobHandler;
 import org.springframework.jdbc.support.lob.LobHandler;
-import repository.QuestionRepository;
+import hello.repository.QuestionRepository;
 
 import java.util.Arrays;
 import java.util.List;

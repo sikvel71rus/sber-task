@@ -1,7 +1,7 @@
-package sp;
+package hello.sp;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import repository.QuestionRepository;
+import hello.repository.QuestionRepository;
 
 public class StoredFunction {
 

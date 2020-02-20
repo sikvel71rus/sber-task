@@ -1,6 +1,6 @@
-package repository;
+package hello.repository;
 
-import model.Question;
+import hello.model.Question;
 
 import java.util.List;
 
